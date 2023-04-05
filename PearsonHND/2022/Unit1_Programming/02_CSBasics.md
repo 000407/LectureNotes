@@ -88,14 +88,14 @@ enum
 using System;
 
 class ProceduralProgram {
-	static void Main(string[] args) { //---------(1)
-		int sum = add(15, -20);		  //---------(3)
-		Console.WriteLine(sum);
-	}
+  static void Main(string[] args) { //---------(1)
+    int sum = add(15, -20);         //---------(3)
+    Console.WriteLine(sum);
+  }
 
-	static int Add(int n1, int n2) {  //---------(2)
-		return n1 + n2;
-	}
+  static int Add(int n1, int n2) {  //---------(2)
+    return n1 + n2;
+  }
 }
 ```
 
