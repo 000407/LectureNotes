@@ -84,3 +84,6 @@ STO185
 - Model each object in computer memory
 - Functionality = Interactions between objects
 - E.g. C#, Java, Kotlin, Scala, Objective-C, Perl, Python
+
+***
+[Home](README.md) | [Next](03_ConstVar.md)

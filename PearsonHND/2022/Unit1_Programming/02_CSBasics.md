@@ -23,9 +23,10 @@
 - Setting the PATH
 	1. Find the location at which the CSC is installed (e.g. C:\Windows\Microsoft.NET\Framework64\v4.0.30319)
 	2. Open a Command Prompt session
-	3. Set the path value
-		PATH=%PATH%;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+	3. Set the path value `PATH=%PATH%;C:\Windows\Microsoft.NET\Framework64\v4.0.30319`
 	4. Run the command csc to verify.
+
+![alt text](00_Src/set-path.jpg "Setting PATH")
 
 ## 2.3. First Application
 
@@ -105,3 +106,6 @@ In the above example
 3. This is the call/invocation of the method. Here
 	- `Main` method is calling the method `Add`; hence `Main` is the ***caller***
 	- `Add` method is being called by `Main`; hence `Add` is the ***callee***
+
+***
+[Home](README.md) | [Prev](01_Intro.md) | [Next](03_ConstVar.md)
