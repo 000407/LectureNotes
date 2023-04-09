@@ -60,7 +60,7 @@ STO185
     </tr>
 </table>
 
-![alt text](00_Src/computer-languages.png "Computer Languages by Level")
+![Computer Languages by Level](00_Src/computer-languages.png "Computer Languages by Level")
 
 - Apart from this, programming languages can be classified into [multiple generations](https://en.wikipedia.org/wiki/Programming_language_generations)
 

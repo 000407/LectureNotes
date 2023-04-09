@@ -31,7 +31,7 @@
 ## 2.3. First Application
 
 - C# is text-based. You may use any text editor to write the code.
-```c#
+```csharp
 using System;
 
 class HelloWorld {
