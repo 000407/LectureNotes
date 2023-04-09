@@ -90,7 +90,7 @@ using System;
 
 class ProceduralProgram {
   static void Main(string[] args) { //---------(1)
-    int sum = add(15, -20);         //---------(3)
+    int sum = Add(15, -20);         //---------(3)
     Console.WriteLine(sum);
   }
 
