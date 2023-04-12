@@ -24,7 +24,7 @@ class Demo {
 	}
 }
 ```
-- Read more about variables at [Variables - C# language specification | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables)
+Read more about variables at [Variables - C# language specification | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables)
 
 ![C# Variables in Action (VS Code)](00_Src/csharp_vars_ex.png "C# Variables in Action (VS Code)")
 
@@ -57,7 +57,7 @@ class Demo {
 
 ![C# Types System Hierarchy](00_Src/csharp_types_system.png "C# Types System Hierarchy")
 
-- Read more about [the C# type system | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
+Read more about [the C# type system | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
 
 ## 3.4 Identifiers
 
