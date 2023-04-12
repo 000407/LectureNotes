@@ -51,9 +51,36 @@ class Demo {
 
 ## 3.3 Types System
 
+- C# is a statically-typed (Compiler checks the type compatibility during the compile-time) language
+- Supports dynamic typing as well
+- Type Hierarchy: Types system in C# can be hierarchically depicted as follows.
+
 ![C# Types System Hierarchy](00_Src/csharp_types_system.png "C# Types System Hierarchy")
+
+- Read more about [the C# type system | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
 
 ## 3.4 Identifiers
 
+- Each variable, constant, namespace, class, method, enumeration needs a unique identifier
+
+### 3.4.1 Rules for Choosing an Identifier
+
+- Should not be a reserved word
+- Should begin with alphabetical character (a-z A-Z) or an underscore (\_)
+- Subsequent characters can be alphanumeric (a-z A-Z 0-9) or underscore (\_)
+- Cannot contain whitespaces
+
+### 3.4.2 Naming Conventions
+
+- There are several naming conventions, widely used in the industry
+	1. Camel Case: thisIsCamelCase
+	2. Pascal Case: ThisIsPascalCase
+	3. Snake Case: this_is_snake_case
+	4. Kebab Case: this-is-kebab-case (<b style="color: red;">&#x2715;</b> Not supported in C#)
+	5. Train Case: This_Is_Train_Case
+- As far as C# is concerned
+	1. Classes, methods and constants are named in `PascalCase` (e.g. `Console`, `WriteLine`, `Pi`)
+	2. local variables (e.g. inside methods) are named in `camelCase` (e.g. `name`, `phoneNumber`)
+
 ***
-[Home](README.md) | [Prev](01_Intro.md) | [Next](03_ConstVar.md)
+[Home](README.md) | [Prev](02_CSBasics.md) | [Next](04_Operators.md)
