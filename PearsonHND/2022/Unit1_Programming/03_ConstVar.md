@@ -13,17 +13,17 @@
 
 ```csharp
 class Demo {
-	static void Main(string[] args) {
-		// Declaration
-		type identifier;
+  static void Main(string[] args) {
+    // Declaration
+    type identifier;
 
-		// Initialization
-		identifier = value;
+    // Initialization
+    identifier = value;
 
-		// Declaration and initialization
-		type identifier = value;
+    // Declaration and initialization
+    type identifier = value;
 
-	}
+  }
 }
 ```
 Read more about variables at [Variables - C# language specification | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/variables)
@@ -65,18 +65,18 @@ Read more about variables at [Variables - C# language specification | Microsoft 
 
 ```csharp
 class Program {
-	// Class Scope 								--- (1)
-	static void Main(string[] args) {
-		// Local Scope of a method 				--- (2)
-		
-		construct() {
-			// Control Structure's Local Scope 	--- (3)
-		}
+  // Class Scope                           --- (1)
+  static void Main(string[] args) {
+    // Local Scope of a method             --- (2)
+    
+    construct() {
+      // Control Structure's Local Scope   --- (3)
+    }
 
-		{
-			// Anonymous Local Scope 			--- (4)
-		}
-	}
+    {
+      // Anonymous Local Scope             --- (4)
+    }
+  }
 }
 ```
 

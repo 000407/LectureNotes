@@ -13,7 +13,7 @@
 
 ```csharp
 conStruct (expression) {
-	// body
+  // body
 }
 ```
 
@@ -27,7 +27,7 @@ conStruct (expression) {
 
 ```csharp
 if (condition) {
-	body
+  body
 }
 ```
 
@@ -39,9 +39,9 @@ if (condition) {
 
 ```csharp
 if (condition) {
-	body_if_true
+  body_if_true
 } else {
-	body_if_false
+  body_if_false
 }
 ```
 
@@ -54,12 +54,12 @@ if (condition) {
 
 ```csharp
 if (condition_1) {
-	body_if_c1_true
+  body_if_c1_true
 } else if (condition_2){
-	body_if_c1_true
+  body_if_c1_true
 ...;
 } else {
-	body_if_condition_n_false
+  body_if_condition_n_false
 }
 ```
 
@@ -81,19 +81,19 @@ if (condition_1) {
 
 ```csharp
 switch (variable) {
-	case value_1:
-		case_1_body
-		break;
+  case value_1:
+    case_1_body
+    break;
 
-	...;
+  ...;
 
-	case value_n:
-		case_n_body
-		break;
+  case value_n:
+    case_n_body
+    break;
 
-	default:
-		default_case_body
-		break;
+  default:
+    default_case_body
+    break;
 }
 ```
 
@@ -120,7 +120,7 @@ switch (variable) {
 
 ```csharp
 while (condition) {
-	body
+  body
 }
 ```
 
@@ -139,7 +139,7 @@ while (condition) {
 
 ```csharp
 for(counter_init; condition; counter_change) {
-	body
+  body
 }
 ```
 
