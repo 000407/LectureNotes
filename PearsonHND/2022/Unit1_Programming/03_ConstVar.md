@@ -1,5 +1,7 @@
 # Unit 1 - Programming 
 
+[Home](README.md) | [Prev](02_CSBasics.md) | [Next](04_Operators.md)
+
 ## 3.1. Variables
 
 - Variables represent storage locations.
@@ -49,7 +51,45 @@ Read more about variables at [Variables - C# language specification | Microsoft 
 	3. Speed of light $C$ is defined with its value computed in in ***method-level***
 	4. Reading a constant
 
-## 3.3 Types System
+## 3.3 Scope of a Member
+
+- Static variables, local variables, constants are alrogether referred to as ***members***.
+- Scope: The area of a code block that the members are visible within; In general, the area enclosed by curly braces (`{}`) can be regarded as a scope.
+- There are several different scopes
+	1. Class Scope
+	2. Local Scope of a Method (nested within the class-scope)
+	3. Control Structure's Local Scope (nested within the local scope)
+	4. Anonymous Local Scope (can be nested within any of the above)
+- A member defined in a particual scope, will be visible from anywhere within that scope (even the nested scopes)
+
+
+```csharp
+class Program {
+	// Class Scope 								--- (1)
+	static void Main(string[] args) {
+		// Local Scope of a method 				--- (2)
+		
+		construct() {
+			// Control Structure's Local Scope 	--- (3)
+		}
+
+		{
+			// Anonymous Local Scope 			--- (4)
+		}
+	}
+}
+```
+
+![C# Scopes](00_Src/cs_scopes.png "C# Scopes")
+
+- In the above
+	1. This is the class-scope.
+	2. This is the method's local scope. Here using the same identifier as a member in the class scope is allowed. In fact, these are treated as two different variables.
+	3. This causes a compile time error, because the identifier `a` is already used in the local scope. This results in `A local or parameter named 'a' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter [cs_learn]csharp(CS0136)`
+	4. This is a variable that won't be visible outside of the scope it is defined.
+	5. Here, we use the same identifier as point 4 above (`b`) with a different type. This won't cause any errors because these are two unrelated scopes.
+
+## 3.4 Types System
 
 - C# is a statically-typed (Compiler checks the type compatibility during the compile-time) language
 - Supports dynamic typing as well
@@ -59,18 +99,18 @@ Read more about variables at [Variables - C# language specification | Microsoft 
 
 Read more about [the C# type system | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
 
-## 3.4 Identifiers
+## 3.5 Identifiers
 
 - Each variable, constant, namespace, class, method, enumeration needs a unique identifier
 
-### 3.4.1 Rules for Choosing an Identifier
+### 3.5.1 Rules for Choosing an Identifier
 
 - Should not be a reserved word
 - Should begin with alphabetical character (a-z A-Z) or an underscore (\_)
 - Subsequent characters can be alphanumeric (a-z A-Z 0-9) or underscore (\_)
 - Cannot contain whitespaces
 
-### 3.4.2 Naming Conventions
+### 3.5.2 Naming Conventions
 
 - There are several naming conventions, widely used in the industry
 	1. Camel Case: thisIsCamelCase

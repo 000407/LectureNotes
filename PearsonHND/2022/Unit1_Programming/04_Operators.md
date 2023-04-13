@@ -1,5 +1,7 @@
 # Unit 1 - Programming 
 
+[Home](README.md) | [Prev](03_ConstVar.md) | [Next](05_ConStructs.md)
+
 ## 4.1 Operators
 
 - C# supports a wide-variety of operators
@@ -201,4 +203,4 @@ Console.WriteLine(a); //  output: 8
 
 Read more about [C# operators and expressions - List all C# operators and expression | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
 ***
-[Home](README.md) | [Prev](03_CSBasics.md) | [Next](05_ConStructs.md)
+[Home](README.md) | [Prev](03_ConstVar.md) | [Next](05_ConStructs.md)
