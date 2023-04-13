@@ -99,7 +99,7 @@ Console.WriteLine(b);</pre></td>
 int a = 10;
 Console.WriteLine(++a);</pre></td>
     <td class="tg-0lax"><pre lang="c#">
-<br>
+&nbsp;
 11</pre></td>
   </tr>
   <tr>
@@ -109,7 +109,7 @@ Console.WriteLine(++a);</pre></td>
 int a = 10;
 Console.WriteLine(--a);</pre></td>
     <td class="tg-0lax"><pre lang="c#">
-<br>
+&nbsp;
 9</pre></td>
   </tr>
   <tr>
@@ -202,5 +202,6 @@ Console.WriteLine(a); //  output: 8
 ```
 
 Read more about [C# operators and expressions - List all C# operators and expression | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
+
 ***
 [Home](README.md) | [Prev](03_ConstVar.md) | [Next](05_ConStructs.md)
