@@ -1,6 +1,6 @@
 # Unit 1 - Programming 
 
-[Home](README.md) | [Prev](04_Operators.md) | [Next](06_Methods.md)
+[Home](README.md) | [Prev](04_Operators.md) | [Next](06_Arrays.md)
 
 ## 5.1. Structured Program Theorem
 
@@ -176,11 +176,11 @@ for(counter_init; condition; counter_change) {
 ### 5.4.3 `return`
 
 - Exits from the current method.
-- This will be discussed under [methods](06_Methods.md).
+- This will be discussed under [methods](07_Methods.md).
 
 In addition to these, there is [`goto`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-goto-statement) which is ***not encouraged to use as it is deemed evil. [Here's why...](https://en.wikipedia.org/wiki/Goto).***. Code that overuses GOTO statements rather than structured programming constructs, resulting in convoluted and unmaintainable programs, is often called ***spaghetti code***.  
 
 Read more on [Jump statements - break, continue, return, and goto | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 
 ***
-[Home](README.md) | [Prev](04_Operators.md) | [Next](06_Methods.md)
+[Home](README.md) | [Prev](04_Operators.md) | [Next](06_Arrays.md)
