@@ -14,7 +14,7 @@ By the end of this unit students will be able to:
 1. [C#: Basics](02_CSBasics.md)
 1. [C#: Variables and Constants](03_ConstVar.md)
 1. [C#: Operators](04_Operators.md)
-1. [C#: Control Structures](05_Operators.md)
+1. [C#: Control Structures](05_ConStructs.md)
 1. [C#: Arrays](06_Arrays.md)
 1. [C#: Methods](07_Methods.md)
 1. [C#: Data Structures](08_DataStructures.md)
