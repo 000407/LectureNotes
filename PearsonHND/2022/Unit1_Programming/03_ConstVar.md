@@ -31,10 +31,10 @@ Read more about variables at [Variables - C# language specification | Microsoft 
 ![C# Variables in Action (VS Code)](00_Src/csharp_vars_ex.png "C# Variables in Action (VS Code)")
 
 - In the above example
-	1. <b style="color: green;">&#x2713;</b> Declaration of variable `num1`
-	2. <b style="color: green;">&#x2713;</b> Initializing `num1` to value `20`
-	3. <b style="color: green;">&#x2713;</b> Declaring `num2` and initializing it to value `10`
-	4. <b style="color: red;">&#x2715;</b> Trying to read the value from `sum` which has not been initialized
+	1. <b style="color: green;">&#x2714;</b> Declaration of variable `num1`
+	2. <b style="color: green;">&#x2714;</b> Initializing `num1` to value `20`
+	3. <b style="color: green;">&#x2714;</b> Declaring `num2` and initializing it to value `10`
+	4. <b style="color: red;">&#x274C;</b> Trying to read the value from `sum` which has not been initialized
 
 ## 3.2. Constants
 
