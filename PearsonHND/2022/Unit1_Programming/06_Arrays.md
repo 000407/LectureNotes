@@ -63,11 +63,11 @@ Console.WriteLine(arr[5]);  // --- (5)
 ```
 
 - In the above
-	1. Output: `1`, which is the element at the 0th index, this is the first element of the array
-	2. Output: `3`, which is the element at the 1st index
-	3. Output: `9`, which is the element at the 4th index, this is the last element
-	4. Output: `IndexOutOfRangeException` in the runtime, there's no element at index -1
-	5. Output: `IndexOutOfRangeException` in the runtime, there's no element at index 5
+	1. <b style="color: green;">&#x2714;</b> Output: `1`, which is the element at the 0th index, this is the first element of the array
+	2. <b style="color: green;">&#x2714;</b> Output: `3`, which is the element at the 1st index
+	3. <b style="color: green;">&#x2714;</b> Output: `9`, which is the element at the 4th index, this is the last element
+	4. <b style="color: red;">&#x274C;</b> Output: `IndexOutOfRangeException` in the runtime, there's no element at index -1
+	5. <b style="color: red;">&#x274C;</b> Output: `IndexOutOfRangeException` in the runtime, there's no element at index 5
 
 ## 6.3 Traversing an Array
 

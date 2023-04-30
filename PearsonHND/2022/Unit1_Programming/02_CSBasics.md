@@ -21,6 +21,16 @@
 ## 2.2. Setting up the Dev Environment
 
 - Download and install the [.NET coding pack](https://aka.ms/dotnet-coding-pack-win). This will install Visual Studio Code IDE, and the .NET SDK 7.0.
+- Using .NET SDK and VS Code ([read more](https://code.visualstudio.com/docs/languages/dotnet))
+	- Create a folder in the location you need to create the project and change directory
+	```cmd
+	D:\>md project_name
+	D:\>cd project_name
+	D:\project_name>
+	```
+	- Run command `dotnet new console`. This will create a console application.
+	- Open the project using VS Code `code .`
+	- A ***Required assets to build and debug are missing. Add them?*** notification appears at the bottom right of the window. Click ***Yes***.
 - You also can use the existing C# Compiler (`csc.exe`) which is bundled into your existing .NET Framework installation.
 - Setting the PATH
 	1. Find the location at which the CSC is installed (e.g. C:\Windows\Microsoft.NET\Framework64\v4.0.30319)
