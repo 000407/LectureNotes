@@ -15,7 +15,7 @@ type[] arrayName;
 - The number of dimensions and the length of each dimension are established when the array instance is created. These values can't be changed during the lifetime of the instance.
 - The default values of numeric array elements are set to zero, and reference elements are set to `null`.
 - A jagged array is an array of arrays, and therefore its elements are reference types and are initialized to `null`.
-- Arrays are ***zero indexed***: an array with `n` elements is indexed from `0` to `n - 1`.
+- Arrays are ***zero indexed***: an array with `n` elements is indexed from `0` to `n - 1`. (read more about [indexed-addressing](https://www.teach-ict.com/as_as_computing/ocr/H447/F453/3_3_8/lowlevel/miniweb/pg5.htm).))
 - Array elements can be of any type, including an array type.
 
 ```csharp
