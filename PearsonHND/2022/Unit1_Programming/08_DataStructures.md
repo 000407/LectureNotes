@@ -1,6 +1,6 @@
 # Unit 1 - Programming 
 
-[Home](README.md) | [Prev](07_Methods.md) | [Next](09_CSV.md)
+[Home](README.md) | [Prev](07_Methods.md) | [Next](09_Algorithms.md)
 
 ## 8.1. Data Structures 101
 
@@ -185,4 +185,4 @@ for (int i = 0; i < cities.Count; i++)
     - `bool TryGetValue(TKey key, out TValue value)`: Gets the value associated with the specified `key` and assigns to the variable `value`.
 
 ***
-[Home](README.md) | [Prev](07_Methods.md) | [Next](09_CSV.md)
+[Home](README.md) | [Prev](07_Methods.md) | [Next](09_Algorithms.md)
