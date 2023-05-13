@@ -18,3 +18,5 @@ By the end of this unit students will be able to:
 1. [C#: Arrays](06_Arrays.md)
 1. [C#: Methods](07_Methods.md)
 1. [C#: Data Structures](08_DataStructures.md)
+1. [Algorithms](09_Algorithms.md)
+1. [C#: Application Development](10_AppDev.md)
