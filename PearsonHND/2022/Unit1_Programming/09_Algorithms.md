@@ -87,7 +87,8 @@ No more pairs -> [8, 10, 7, 9, 12]
 - The above is repeated in each iteration, for the sub array which is unsorted, until the first pair of items sorted.
 Sorting Order:
 	- For ascending order, of each pair, left side item < right side item 
-	- For descending order, of each pair, left side item > right side item 
+	- For descending order, of each pair, left side item > right side item
+- YouTube Video - [Bubble Sort Algorithm - [with Animated Example]](https://www.youtube.com/watch?v=J9Xws0uRB24)
 
 ![Bubble Sort - Flow](00_Src/bubble_sort_flow.png "Bubble Sort - Flow")
 
@@ -171,7 +172,7 @@ static void SelectionSort(int[] numbers, bool asc) {
 
 ## 9.4 Things to Remember
 
-- There can be multiple algorithms that achieves the same task.
+- There can be multiple algorithms that performs the same task/achieves the same result.
 - Choosing an algorithm should be based on 
 	- **Time Complexity**: How much of time it would take to find a solution (faster the better)
 	- **Space Complexity**: How much of memory it will consume to find a solution (lower the better)
