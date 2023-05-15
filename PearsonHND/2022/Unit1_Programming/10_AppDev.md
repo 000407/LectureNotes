@@ -2,7 +2,7 @@
 
 [Home](README.md) | [Prev](09_Algorithms.md)
 
-## 9.1 Application Development 101
+## 10.1 Application Development 101
 
 - Any application at a high level has the following
   - Input/Output (I/O) operations
@@ -19,11 +19,11 @@
 - Idea is to write the program using these components, to achieve the requirements.
 - [Software Development Lifecycle](https://www.tutorialspoint.com/sdlc/sdlc_overview.htm)
 
-## 9.2 Example
+## 10.2 Example
 
 - A complete example of an application, developed step by step, is available [in this document](990_AppDemo.md).
 
-## 9.3 Application Development Best Practices
+## 10.3 Application Development Best Practices
 
 ### Enhance Code Readability
 We can’t emphasize it enough: try to always write code that can be easily understood by others. Writing highly optimized mathematical routines, or creating complex libraries, is relatively easy. Writing 200 lines of code that can be instantly understood by another software engineer is more of a challenge.
