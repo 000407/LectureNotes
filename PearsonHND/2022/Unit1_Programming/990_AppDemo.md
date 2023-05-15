@@ -209,7 +209,7 @@ partial class StudentManagementSystem {
 ### Show All Students (sorted by ID)
 
 - We will provide the implementation for `ShowAllStudentsSortedById()` method mentioned before. Before this, we will need to provide some sorting operation.
-- Here we will use the selection sort[(see 9.Algorithms)](09_Algorithms.md#933-selection-sort) operation.
+- Here we will use the selection sort ([see 9.Algorithms])(09_Algorithms.md#933-selection-sort) operation.
 - Again, this will go in a separate file named `SortingOperation.cs`.
 
 ```csharp
