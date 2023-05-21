@@ -87,11 +87,7 @@ class StudentManagementSystem {
       - A small box with a search bar and a list will appear. This list contains the processes which are already running in the system.
   5. Select the process of your application.
 
-- This is demonstrated in the following screencast as well.
-
-<video width="640" controls>
-  <source src="00_Src/vsc_debugger_demo.mp4" type="video/mp4">
-</video>
+- This is demonstrated in [this screencast](https://drive.google.com/file/d/1MNXBLevJTTVjMIcRhJONHU29BSPqpPMA).
   
 ## Data Representation
 
