@@ -116,7 +116,7 @@ Read more about [the C# type system | Microsoft Learn](https://learn.microsoft.c
 	1. Camel Case: thisIsCamelCase
 	2. Pascal Case: ThisIsPascalCase
 	3. Snake Case: this_is_snake_case
-	4. Kebab Case: this-is-kebab-case (<b style="color: red;">&#x2715;</b> Not supported in C#)
+	4. Kebab Case: this-is-kebab-case (<b style="color: red;">&#x274C;</b> Not supported in C#)
 	5. Train Case: This_Is_Train_Case
 - As far as C# is concerned
 	1. Classes, methods and constants are named in `PascalCase` (e.g. `Console`, `WriteLine`, `Pi`)

@@ -157,7 +157,7 @@ for(counter_init; condition; counter_change) {
 
 ### 5.4.1 `break`
 
-- Exits from the current loop. ***Can/should*** be used only from within a loop
+- Exits from the current loop. ***Can/should*** be used only from within a loop, or `switch` block.
 
 ![break statement in C#](00_Src/cs_break.png "break statement in C#")
 
@@ -178,7 +178,7 @@ for(counter_init; condition; counter_change) {
 - Exits from the current method.
 - This will be discussed under [methods](07_Methods.md).
 
-In addition to these, there is [`goto`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-goto-statement) which is ***not encouraged to use as it is deemed evil. [Here's why...](https://en.wikipedia.org/wiki/Goto).***. Code that overuses GOTO statements rather than structured programming constructs, resulting in convoluted and unmaintainable programs, is often called ***spaghetti code***.  
+In addition to these, there is [`goto`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-goto-statement) which is ***not encouraged to use as it is deemed evil. [Here's why](https://en.wikipedia.org/wiki/Goto).***. Code that overuses `goto` statements rather than structured programming constructs, resulting in convoluted and unmaintainable programs, is often called ***spaghetti code***.  
 
 Read more on [Jump statements - break, continue, return, and goto | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 

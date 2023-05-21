@@ -101,23 +101,24 @@ enum
 using System;
 
 class ProceduralProgram {
-  static void Main(string[] args) { //---------(1)
-    int sum = Add(15, -20);         //---------(3)
+  static void Main(string[] args) { // --- (1)
+    int sum = Add(15, -20);         // --- (3)
     Console.WriteLine(sum);
   }
 
-  static int Add(int n1, int n2) {  //---------(2)
+  static int Add(int n1, int n2) {  // --- (2)
     return n1 + n2;
   }
 }
 ```
 
-In the above example
+- In the above example
 1. This is the main entry point of the program. This is what will be executed at first.
 2. This is a method declaration. Here we define what the method is (method signature), and what it does (method body)
 3. This is the call/invocation of the method. Here
 	- `Main` method is calling the method `Add`; hence `Main` is the ***caller***
 	- `Add` method is being called by `Main`; hence `Add` is the ***callee***
+- [In the chapter 07](07_Methods.md) there is an in-depth discussion about methods.
 
 ***
 [Home](README.md) | [Prev](01_Intro.md) | [Next](03_ConstVar.md)

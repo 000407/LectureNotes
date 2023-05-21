@@ -64,6 +64,45 @@ static int LinearSearch(int[] array, int key) {
 
 ![Binary Search - Flow](00_Src/bin_search_flow.png "Binary Search - Flow")
 
+```csharp
+static int BinarySearch(int[] arr, int key) {
+  // Array should be sorted
+  
+  int bottomOfTheSubArray = 0;
+  int topOfTheSubArray = arr.Length;
+  int resultIndex = -1;
+
+  while (true) {
+    if (topOfTheSubArray <= bottomOfTheSubArray) {
+      // top and bottom pointers pointing at the same index
+      // this means that there's nothing further to search in
+      // we haven't found our item, so let's break the loop
+      break;
+    }
+
+    int middleIndex = (topOfTheSubArray + bottomOfTheSubArray) / 2;
+    int itemInTheMiddle = arr[middleIndex];
+
+    if (itemInTheMiddle == key) {
+      // we have found our item, so let's break the loop
+      // before breaking the loop, we will set the middleIndex as the resultIndex
+      resultIndex = middleIndex;
+      break;
+    } else if (key > itemInTheMiddle) {
+      // The id we are looking for is greater than what we found in the middle.
+      // So we narrow our search to the right sub array
+      bottomOfTheSubArray = middleIndex + 1;
+    } else if (key < itemInTheMiddle) {
+      // The id we are looking for is less than what we found in the middle.
+      // So we narrow our search to the left sub array
+      topOfTheSubArray = middleIndex - 1;
+    }
+  }
+
+  return resultIndex;
+}
+```
+
 ### 9.3 Sorting Algorithms
 
 - Sorting algorithms are used to arrange the items in a linear data structures in ascending/descending order.

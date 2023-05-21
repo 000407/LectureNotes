@@ -65,6 +65,34 @@ class StudentManagementSystem {
         - d. Exits from the application. Here, we will return from the main method after displaying a message.
     6. This is the `default` case. Falls back on to this case when the given input is unknown. We will display the error, and start the loop over.
 
+## Debugging with VS Code
+
+- VS Code has out-of-the-box support for debugging .NET applications.
+- These are available in the **Run and Debug** tab in the left pane.
+
+![**Run and Debug** in VS Code](00_Src/vsc_debugger.png "VS Code - Run and Debug")
+
+- The button **Start Debugging** (green-outlined **Play** button) in above commences the debugging, in the selected mode from the drop-down menu immediately right to that.
+- The menu enables multiple options, of which we are interested in two.
+  - **.NET Core Launch** - Runs the application from within VS Code
+  - **.NET Core Attach** - Attach the VS Code debugger to a process which is already running.
+- Breakpoints: This is how you tag the lines for the debugger. Once a tagged line is hit, the execution of the application will freeze, so that we can take a look at under the hood (e.g. memory, variables etc.) To choose a breakpoint
+  - Move the curser over to left of the line numbers, of a source file. A blood-red color dot will appear.
+  - Click on the dot. It will change color to bright red. This means that the breakpoint is hit.
+- To debug our application (to attach an already running application)
+  1. Build the project (here, we will use the command `dotnet build` from the CLI)
+  2. Run the application (here, we will use the executable in the `debug` directory and execute it from the console)
+  3. Select **.NET Core Attach** from the debugger.
+  4. Press **Start Debugging** button (or press F5).
+      - A small box with a search bar and a list will appear. This list contains the processes which are already running in the system.
+  5. Select the process of your application.
+
+- This is demonstrated in the following screencast as well.
+
+<video width="640" controls>
+  <source src="00_Src/vsc_debugger_demo.mp4" type="video/mp4">
+</video>
+  
 ## Data Representation
 
 - The data we need to represent and manage here, are structured. Hence, we can use `struct` types to represent student and course information. ([Read more about `struct`](https://www.tutorialsteacher.com/csharp/csharp-struct))

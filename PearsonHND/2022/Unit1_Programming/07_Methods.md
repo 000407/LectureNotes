@@ -70,7 +70,7 @@ static double Divide(double num, double den) { // ERROR: not all code paths retu
 - Whenever a `return` statement is hit
   1. If there's a return type specified, a value of the given type will be returned.
   2. Method execution will stop right there.
-- **`return` in `void` methods**: For `void` methods, there can be return statements without any value.
+- **`return` in `void` methods**: For `void` methods, there can be return statements, but there shouldn't be any value with them.
 
 ```csharp
 static void Main(string[] args) {
