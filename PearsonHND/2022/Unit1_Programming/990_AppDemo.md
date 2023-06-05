@@ -1,5 +1,7 @@
 # Student Management System - A Console Application
 
+[Back](10_AppDev.md)
+
 ## Requirements and Scope
 
 - A simple console application with a CLI that manages students' information
@@ -375,3 +377,6 @@ partial class StudentManagementSystem {
 ![Student Management System: Directory Structure](00_Src/app_dir_structure.png "Student Management System: Directory Structure")
 
 - That's it. Now you should be able to build and run this application. You can use the VS Code's debugging features to identify when you have any errors in your code.
+
+***
+[Back](10_AppDev.md)
